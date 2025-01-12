@@ -1,0 +1,81 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "nombre": "Bulbasaur",
+        "tipo": ["Planta"],
+        "peso": "6.9 kg",
+        "altura": "70 cm",
+        "estadisticas": {
+          "velocidad": 45,
+          "fuerza": 49,
+          "precision": 65,
+          "resistencia": 49
+        },
+        "movimientos": [
+          {
+            "nombre": "Látigo Cepa",
+            "descripcion": "Un largo látigo hecho de plantas ataca al objetivo.",
+            "potencia": 45,
+            "contacto": true
+          },
+          {
+            "nombre": "Polvo Veneno",
+            "descripcion": "Esparce un polvo tóxico que envenena al objetivo.",
+            "potencia": 0,
+            "contacto": false
+          }
+        ],
+        "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+        "evoluciones": [
+          {
+            "id": 2,
+            "nivel_necesario": 16
+          },
+          {
+            "id": 3,
+            "nivel_necesario": 32
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Squirtle",
+        "tipo": ["Agua"],
+        "peso": "9 kg",
+        "altura": "50 cm",
+        "estadisticas": {
+          "velocidad": 43,
+          "fuerza": 48,
+          "precision": 50,
+          "resistencia": 65
+        },
+        "movimientos": [
+          {
+            "nombre": "Pistola Agua",
+            "descripcion": "El objetivo es empapado con un chorro de agua.",
+            "potencia": 40,
+            "contacto": false
+          },
+          {
+            "nombre": "Cascada",
+            "descripcion": "El usuario ataca mientras se sumerge en agua.",
+            "potencia": 80,
+            "contacto": true
+          }
+        ],
+        "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+        "evoluciones": [
+          {
+            "id": 8,
+            "nivel_necesario": 16
+          },
+          {
+            "id": 9,
+            "nivel_necesario": 36
+          }
+        ]
+      }
+    ]
+  }
+  

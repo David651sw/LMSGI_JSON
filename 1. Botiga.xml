@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<botiga>
+    <!-- Informació del primer producte -->
+    <producte id="P1">
+        <nom>Portàtil Lenovo Thinkpad</nom>
+        <imatge>https://m.media-amazon.com/images/I/41IsiTZJ5ZL._AC_UF894,1000_QL80_.jpg</imatge>
+        <detalls>    
+            <descripcio>Un portàtil compacte amb un disseny elegant i alta potència.</descripcio>
+            <categoria tipus="Electrònica">Informàtica</categoria>
+            <preu moneda="EUR" ambDescompte="no">1299.99</preu>
+            <disponibilitat>en estoc</disponibilitat>
+        </detalls>
+        <especificacions>
+            <processador>Intel Core i7</processador>
+            <memoriaRam>16GB</memoriaRam>
+            <emmagatzematge>512GB SSD</emmagatzematge>
+            <fabricant>
+                <nom>Lenovo</nom>
+                <contacte>
+                    <telefon>+1-800-123-4567</telefon>
+                    <web>https://www.lenovo.com/</web>
+                </contacte>
+            </fabricant>
+        </especificacions>
+        <valoracions>
+            <mitjana>4.8</mitjana>
+            <opinions>120</opinions>
+        </valoracions>
+    </producte>
+
+    <!-- Informació del segon producte -->
+    <producte id="P2">
+        <nom>Auriculars Sony</nom>
+        <imatge>https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102583607/fee_786_587_png</imatge>
+        <detalls>
+            <descripcio>Auriculars inalàmbrics amb cancel·lació de soroll.</descripcio>
+            <categoria tipus="Accessoris">Àudio</categoria>
+            <preu moneda="EUR" ambDescompte="sí">349.99</preu>
+            <disponibilitat>esgotat</disponibilitat>
+        </detalls>
+        <especificacions>
+            <bateriaDurada>30 hores</bateriaDurada>
+            <connectivitat>Bluetooth 5.2</connectivitat>
+            <pes>250g</pes>
+            <fabricant>
+                <nom>Sony</nom>
+                <contacte>
+                    <telefon>+81-3-1234-5678</telefon>
+                    <web>https://www.sony.com</web>
+                </contacte>
+            </fabricant>
+        </especificacions>
+        <valoracions>
+            <mitjana>4.7</mitjana>
+            <opinions>300</opinions>
+        </valoracions>
+    </producte>
+
+    <!-- Informació del tercer producte -->
+    <producte id="P3">
+        <nom>Smartwatch Garmin Fenix 7</nom>
+        <imatge>https://m.media-amazon.com/images/I/51LCiw8UzwL._AC_UF894,1000_QL80_.jpg</imatge>
+        <detalls>
+            <descripcio>Un rellotge intel·ligent i resistent, perfecte per a activitats a l'aire lliure.</descripcio>
+            <categoria tipus="Tecnologia">Wearables</categoria>
+            <preu moneda="EUR" ambDescompte="sí">699.99</preu>
+            <disponibilitat>en estoc</disponibilitat>
+        </detalls>
+        <especificacions>
+            <bateriaDurada>20 dies</bateriaDurada>
+            <gps>Integrat</gps>
+            <resistencia>Aigua fins a 100m</resistencia>
+            <fabricant>
+                <nom>Garmin</nom>
+                <contacte>
+                    <telefon>+1-800-876-5432</telefon>
+                    <web>https://www.garmin.com</web>
+                </contacte>
+            </fabricant>
+        </especificacions>
+        <valoracions>
+            <mitjana>4.9</mitjana>
+            <opinions>500</opinions>
+        </valoracions>
+    </producte>
+</botiga>
